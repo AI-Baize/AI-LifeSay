@@ -118,6 +118,8 @@
 ## 如何了解或参与
 
 请联系 **Baize_Cyber**。
+<img width="908" height="1416" alt="042d2f1018ebd394a4852f4eb7540fe8" src="https://github.com/user-attachments/assets/de550f9f-4dbb-49dd-930f-b870752f7d76" />
+
 
 试用意向可写孩子的大致年龄段、陪学困难、手机系统和机型。无需提供儿童姓名、生日、学校、照片或录音。安排按实际可用版本与支持容量分批进行；报名不收费，不保证立即获得安装包。
 
