@@ -1,0 +1,5 @@
+const publicKey: JsonWebKey = {"kty":"RSA","n":"qlQcCpBrvDyJPVrtpeWCXKD4u0YKzthQGC04oDKgEM0whXBJf-68plUDyTAnd-ofpanzBHffGmzP8Oh_sBlAEIfLFJaObGiz54JMaibZjv_TByKie4t5BPkR4qctXl7jANuWdjo79IvIE2iDGLhPpzHIi4_b-ovg9adiStMc3odcLkOgoY8HyTc2VFJx86EbRSY7d4VQstcHo6QKEGTIgvjKW9lBSWaISwivUO0b50aoR_Z02tA9JCvw_1w4XlyPS5d2cWqR6kh66Pc5Bvj3oIg-HtAso0qrMkonnUVqrO5JMHHrFE06USPCZTnHDqn_ggSVX9x5r5kr6mudRZ85u7MbFrdwqB7A9VU8WVNwpkggz_uv7k6y4SCG2q853l9gpGPeEBSRIFtKcCrLqz3vGrAHxN9VnaOvUPgT5L8vaf8Tt4xd0W2BwziVONZmkzMbSggDJtVDeGS0-MrjMEMX68afAXgLqAZCWxFtPN6lj8I4yOi-9297onb7JEvOx4uf","e":"AQAB"};
+export function formalTrust(){ return publicKey; }
+export function isOperationTestBuild(){return false;}
+export function isLocalProductionAcceptanceBuild(){return false;}
+export function isFormalIdentityVerificationBuild(){return false;}

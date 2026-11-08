@@ -1,0 +1,122 @@
+{
+ "scene": "SC-C02-003",
+ "voice": "Samantha(en-US)",
+ "note": "本机合成非母语者录音(I-7); L-format补录",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Look! Sun, moon, day, night.",
+   "file": "L01.m4a"
+  },
+  {
+   "id": "L02",
+   "text": "The sun is up. It's day.",
+   "file": "L02.m4a"
+  },
+  {
+   "id": "L03",
+   "text": "The moon is up. It's night.",
+   "file": "L03.m4a"
+  },
+  {
+   "id": "L04",
+   "text": "Here comes the night. The moon is up.",
+   "file": "L04.m4a"
+  },
+  {
+   "id": "L05",
+   "text": "Good night! Let's put the pictures away.",
+   "file": "L05.m4a"
+  },
+  {
+   "id": "L06",
+   "text": "Let's look at a story.",
+   "file": "L06.m4a"
+  },
+  {
+   "id": "L07",
+   "text": "One, two, three, four pictures.",
+   "file": "L07.m4a"
+  },
+  {
+   "id": "L08",
+   "text": "In the morning, the sun comes up.",
+   "file": "L08.m4a"
+  },
+  {
+   "id": "L09",
+   "text": "We play outside. It's day.",
+   "file": "L09.m4a"
+  },
+  {
+   "id": "L10",
+   "text": "In the evening, we go home.",
+   "file": "L10.m4a"
+  },
+  {
+   "id": "L11",
+   "text": "At night, the moon comes up. It's night.",
+   "file": "L11.m4a"
+  },
+  {
+   "id": "L12",
+   "text": "And then...?",
+   "file": "L12.m4a"
+  },
+  {
+   "id": "L13",
+   "text": "The sun comes up again. It's day! Good night, see you tomorrow.",
+   "file": "L13.m4a"
+  },
+  {
+   "id": "L14",
+   "text": "In the morning, the sun comes up. The sky gets bright. A new day begins.",
+   "file": "L14.m4a"
+  },
+  {
+   "id": "L15",
+   "text": "The children go outside. They play and laugh. The birds sing in the tree. It's day.",
+   "file": "L15.m4a"
+  },
+  {
+   "id": "L16",
+   "text": "In the evening, the sun goes down. We go home. We have dinner with Mom and Dad.",
+   "file": "L16.m4a"
+  },
+  {
+   "id": "L17",
+   "text": "At night, the moon comes up. The stars are shining. The cat is sleeping. It's night.",
+   "file": "L17.m4a"
+  },
+  {
+   "id": "L18",
+   "text": "Then the night ends, and the sun comes up again. Day, night, day, night.",
+   "file": "L18.m4a"
+  },
+  {
+   "id": "L19",
+   "text": "Sun comes up, we say good day.",
+   "file": "L19.m4a"
+  },
+  {
+   "id": "L20",
+   "text": "Moon comes up, we say good night.",
+   "file": "L20.m4a"
+  },
+  {
+   "id": "L21",
+   "text": "Play outside, sleep tight.",
+   "file": "L21.m4a"
+  },
+  {
+   "id": "L22",
+   "text": "Round and round, day and night.",
+   "file": "L22.m4a"
+  },
+  {
+   "id": "L23",
+   "text": "Good night, sleep well. See you in the morning.",
+   "file": "L23.m4a"
+  }
+ ]
+}

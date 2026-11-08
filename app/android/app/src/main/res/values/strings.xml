@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AI LifeSay</string>
+    <string name="title_activity_main">AI LifeSay</string>
+    <string name="package_name">org.aibaize.lifesay</string>
+    <string name="custom_url_scheme">org.aibaize.lifesay</string>
+</resources>

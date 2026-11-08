@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "internal_candidate",
+  "package": "public/course-package/manifest.json",
+  "source_course_scripts": 30,
+  "scene_images": 30,
+  "internal_pilot_image_links": 3,
+  "visual_status_counts": {
+    "user_approved_visual_candidate": 7,
+    "pending_user_visual_review": 17,
+    "ai_visual_and_teaching_screen_passed_human_signoff_pending": 6
+  },
+  "candidate_pilot_units": 10,
+  "candidate_pilot_stories": 3,
+  "audio_resources": 62,
+  "formal_content_revision": "2026-10-26-content-v1.1.3",
+  "formal_dialogue_audio_candidates": 171,
+  "formal_event_frames_mapped": 160,
+  "formal_word_card_image_candidates_generated": 109,
+  "formal_word_card_images_pending": 0,
+  "formal_event_images_generated": 160,
+  "formal_event_images_pending": 0,
+  "source_catalog_sha256": "1ea43c60b67130499eddc2eb55576002e49be330366200ab256731f4c06b6d55",
+  "market_free_distribution": "excluded_by_vite_publicDir_false_and_empty_release_catalog"
+}

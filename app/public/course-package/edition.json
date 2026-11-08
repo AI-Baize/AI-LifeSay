@@ -1,0 +1,12 @@
+{
+  "edition": "free",
+  "requires_key": false,
+  "groups": [
+    "C01",
+    "C02",
+    "C03"
+  ],
+  "scenes": 30,
+  "market_distribution_enabled": false,
+  "local_review": true
+}

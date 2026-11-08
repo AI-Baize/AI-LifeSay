@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "id": "kindergarten",
+  "version": "1.0.0",
+  "title_zh": "幼儿园",
+  "locale": "en-US",
+  "rights": {
+    "mode": "original",
+    "evidence": "original:kindergarten-v1"
+  },
+  "tasks": [
+    {
+      "id": "hello-family",
+      "goal_id": "respond-to-greeting",
+      "goal_zh": "回应简单问候",
+      "title_zh": "圈圈时间问候",
+      "minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "materials_zh": [
+        "两只玩偶、地垫围成小圈（不调用同学姓名，不建同伴档案）"
+      ],
+      "stop_rule_zh": "孩子拒绝、疲惫或不适时停止，不要求学满时间。",
+      "observation": {
+        "id": "reply-hello",
+        "prompt_zh": "最后一次邀请时，孩子如何回应玩偶的问候？",
+        "independent_zh": "未提供答案示范，孩子自己说 Hello 或 Hi。",
+        "prompted_zh": "家长示范或提示答案后，孩子说 Hello 或 Hi。",
+        "not_yet_zh": "孩子愿意参与，有回应机会，但帮助后仍未口头回应；拒绝或未观察填未知。"
+      },
+      "path": [
+        {
+          "level": 0,
+          "title_zh": "一起说",
+          "support_zh": "家长扮老师完整示范问候；跟说记为提示完成。"
+        },
+        {
+          "level": 1,
+          "title_zh": "先等再帮",
+          "support_zh": "问候后先留几秒回应时间，需要时再示范。"
+        },
+        {
+          "level": 2,
+          "title_zh": "换个场景",
+          "support_zh": "换到家里来客、外出问好等其他时刻尝试相同问候目标。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "hello-prepare",
+          "title_zh": "圈圈时间开始",
+          "seconds": 60,
+          "instruction_zh": "家长说明玩「圈圈时间」游戏：家长扮老师，孩子可选一只玩偶当自己。接受或拒绝角色均可，不强迫参与，不调用真实同学姓名。",
+          "line_en": "Let's play circle time! I'm the teacher.",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/kindergarten/hello-prepare.m4a",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "prepare"
+        },
+        {
+          "id": "hello-practice",
+          "title_zh": "玩偶演示问候",
+          "seconds": 120,
+          "instruction_zh": "用两只玩偶演示「老师问候—小朋友回应」一轮，答案提示本段可见/可播。孩子可跟说小朋友一侧；只作练习，不进事实。",
+          "line_en": "Hello!",
+          "expected_response_en": "Hello!",
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/kindergarten/hello-practice.m4a",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "practice"
+        },
+        {
+          "id": "hello-observe",
+          "title_zh": "回应老师问候",
+          "seconds": 120,
+          "instruction_zh": "老师重新自然问好，家长不替孩子补答案。孩子回应 Hello 或 Hi 即可，不纠结口音；对话课独立 session，引用同一 reply-hello，不借用词卡课事实。",
+          "line_en": "Hello!",
+          "expected_response_en": "Hello!",
+          "observation_ids": [
+            "reply-hello"
+          ],
+          "audio": {
+            "path": "audio/kindergarten/hello-observe.m4a",
+            "locale": "en-US",
+            "status": "ready",
+            "auto_play": false
+          },
+          "phase": "observe"
+        },
+        {
+          "id": "hello-finish",
+          "title_zh": "圈圈结束",
+          "seconds": 60,
+          "instruction_zh": "圈圈小情节自然结束，挥手或结束；不评流程完成度，不评礼貌表现。",
+          "line_en": "Good job! Bye, friends!",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/kindergarten/hello-finish.m4a",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "finish"
+        }
+      ]
+    },
+    {
+      "id": "name-color",
+      "goal_id": "name-basic-color",
+      "goal_zh": "说出基本颜色",
+      "title_zh": "美术课色纸命名",
+      "minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "materials_zh": [
+        "红、蓝、黄三张大色纸（卡纸自制）；不用剪刀颜料，不拍作品照"
+      ],
+      "stop_rule_zh": "孩子拒绝、疲惫或不适时停止，不要求学满时间。",
+      "observation": {
+        "id": "reply-color",
+        "prompt_zh": "最后一次指认时，孩子如何说出颜色？",
+        "independent_zh": "未提供答案示范，孩子自己说 red、blue 或 yellow。",
+        "prompted_zh": "家长示范或提示答案后，孩子说出对应颜色词。",
+        "not_yet_zh": "孩子愿意参与，有回应机会，但帮助后仍未口头说出颜色词；拒绝或未观察填未知。"
+      },
+      "path": [
+        {
+          "level": 0,
+          "title_zh": "一起说",
+          "support_zh": "家长举色纸完整示范颜色词；跟说记为提示完成。"
+        },
+        {
+          "level": 1,
+          "title_zh": "先等再帮",
+          "support_zh": "举色纸先留几秒，需要时再示范。"
+        },
+        {
+          "level": 2,
+          "title_zh": "换个场景",
+          "support_zh": "换到衣物、食物等其他物品尝试相同颜色目标。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "color-prepare",
+          "title_zh": "美术课开始",
+          "seconds": 60,
+          "instruction_zh": "家长扮美术课老师，三张色纸放桌面。孩子可以看、选一张或拿在手里；无作品、无剪刀颜料，不强迫参与。",
+          "line_en": "It's art class! Red, blue, yellow.",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/kindergarten/color-prepare.m4a",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "prepare"
+        },
+        {
+          "id": "color-practice",
+          "title_zh": "老师示范问答",
+          "seconds": 120,
+          "instruction_zh": "老师举一张色纸演示问答，玩偶当学生，答案提示本段可见/可播。孩子可跟说回答；只作练习，不进事实。",
+          "line_en": "What color is this?",
+          "expected_response_en": "Blue!",
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/kindergarten/color-practice.m4a",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "practice"
+        },
+        {
+          "id": "color-observe",
+          "title_zh": "说出色纸颜色",
+          "seconds": 120,
+          "instruction_zh": "老师举起另一张明确色纸（如红色）向孩子提问，等一个目标回答，不替答。说出对应颜色即正确；换目标物必须同步刺激与答案。对话课独立 session，引用同一 reply-color，不借用词卡课事实。",
+          "line_en": "What color is this?",
+          "expected_response_en": "Red!",
+          "observation_ids": [
+            "reply-color"
+          ],
+          "audio": {
+            "path": "audio/kindergarten/color-observe.m4a",
+            "locale": "en-US",
+            "status": "ready",
+            "auto_play": false
+          },
+          "phase": "observe"
+        },
+        {
+          "id": "color-finish",
+          "title_zh": "收好色纸",
+          "seconds": 60,
+          "instruction_zh": "一起收好色纸，任意温和结束；不要求做完收纳才可记录，不评完整句。",
+          "line_en": "Good job! Let's put them away.",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/kindergarten/color-finish.m4a",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "finish"
+        }
+      ]
+    },
+    {
+      "id": "name-animal",
+      "goal_id": "name-basic-animal",
+      "goal_zh": "说出常见动物",
+      "title_zh": "分享动物卡",
+      "minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "materials_zh": [
+        "自制猫/狗/鸟动物卡三张，孩子自选一张；家长扮玩偶同伴（不用真实同学资料）"
+      ],
+      "stop_rule_zh": "孩子拒绝、疲惫或不适时停止，不要求学满时间。",
+      "observation": {
+        "id": "reply-animal",
+        "prompt_zh": "最后一次问到时，孩子如何说出动物？",
+        "independent_zh": "未提供答案示范，孩子自己说 cat、dog 或 bird。",
+        "prompted_zh": "家长示范或提示答案后，孩子说出对应动物词。",
+        "not_yet_zh": "孩子愿意参与，有回应机会，但帮助后仍未口头说出动物词；拒绝或未观察填未知。"
+      },
+      "path": [
+        {
+          "level": 0,
+          "title_zh": "一起说",
+          "support_zh": "家长举起卡片配合完整示范；跟说记为提示完成。"
+        },
+        {
+          "level": 1,
+          "title_zh": "先等再帮",
+          "support_zh": "对所选卡先留几秒，需要时再示范。"
+        },
+        {
+          "level": 2,
+          "title_zh": "换个场景",
+          "support_zh": "换到窗外的动物、绘本里的动物等场景继续同一目标。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "animal-prepare",
+          "title_zh": "分享时间开始",
+          "seconds": 60,
+          "instruction_zh": "家长扮玩偶同伴，孩子带一张自选动物卡进入「分享时间」。接受或拒绝角色均可，可用玩偶代答；同伴为虚构玩偶，不用真实同学资料，拒绝不记负向。",
+          "line_en": "Sharing time! What card do you have?",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/kindergarten/animal-prepare.m4a",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "prepare"
+        },
+        {
+          "id": "animal-practice",
+          "title_zh": "同伴示范问答",
+          "seconds": 120,
+          "instruction_zh": "演示「同伴问—孩子答」一轮，答案提示本段可见/可播，以当次所选卡为准同步。孩子可跟说回答；只作练习，不进事实。",
+          "line_en": "What is this?",
+          "expected_response_en": "A dog!",
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/kindergarten/animal-practice.m4a",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "practice"
+        },
+        {
+          "id": "animal-observe",
+          "title_zh": "说出卡片动物",
+          "seconds": 120,
+          "instruction_zh": "同伴对所选卡中性提问，等孩子接回答话，不替答。与所选卡一致的 cat/a cat、dog/a dog、bird/a bird 均正确（答案随所选卡同步，不固定）；冠词遗漏不判失败。对话课独立 session，引用同一 reply-animal，不借用词卡课事实。",
+          "line_en": "What is this?",
+          "expected_response_en": null,
+          "observation_ids": [
+            "reply-animal"
+          ],
+          "audio": {
+            "path": "audio/kindergarten/animal-observe.m4a",
+            "locale": "en-US",
+            "status": "ready",
+            "auto_play": false
+          },
+          "phase": "observe"
+        },
+        {
+          "id": "animal-finish",
+          "title_zh": "结束分享",
+          "seconds": 60,
+          "instruction_zh": "结束分享小情节，挥手或结束；不以礼貌表现、分享配合度替代动物命名，不评分享行为。",
+          "line_en": "Bye, cat! See you tomorrow!",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/kindergarten/animal-finish.m4a",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "finish"
+        }
+      ]
+    }
+  ],
+  "assumption_zh": "产品假设：时长、支持档位与观察门槛待验证；不用于诊断或官方等级认证。"
+}

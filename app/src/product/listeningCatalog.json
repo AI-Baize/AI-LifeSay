@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "release_status": "internal_candidate",
+  "programs": [
+    {
+      "id": "bedtime-story",
+      "title": "小熊要睡觉了",
+      "source_scene": "SC-C01-009",
+      "source": "courses/source/C01-家庭/SC-C01-009-听自制睡前小故事.md",
+      "manifest": "audio/SC-C01-009/manifest.json",
+      "cover": "scenes/observation/family-visitor.svg",
+      "review_status": "internal_draft",
+      "audio_review": "pending",
+      "rights_review": "pending"
+    },
+    {
+      "id": "day-night-story",
+      "title": "白天和黑夜",
+      "source_scene": "SC-C02-003",
+      "source": "courses/source/C02-生活知识/SC-C02-003-听看昼夜故事.md",
+      "manifest": "audio/SC-C02-003/manifest.json",
+      "cover": null,
+      "review_status": "internal_draft",
+      "audio_review": "pending",
+      "rights_review": "pending"
+    }
+  ],
+  "unavailable": [
+    {
+      "id": "kindergarten-rhythm",
+      "title": "音乐课听韵律",
+      "source_scene": "SC-C03-009",
+      "source": "courses/source/C03-幼儿园/SC-C03-009-音乐课听韵律.md",
+      "reason": "现有 manifest 仍使用“A 输入词”等占位说明，尚未与脚本逐句核对，暂不播放。"
+    }
+  ]
+}

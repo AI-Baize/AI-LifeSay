@@ -1,0 +1,35 @@
+.formal-entry{margin:20px 0;padding:18px;background:#fff;border:1px solid var(--product-border);border-radius:16px}
+.formal-entry h2{margin-top:0}
+.formal-entry .button-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 16px;border-radius:12px;text-decoration:none}
+.formal-courses>section{margin:28px 0}
+.formal-note{padding:12px 14px;border:1px solid var(--product-border);border-radius:12px;background:#fff;font-size:14px;line-height:1.55}
+.formal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.formal-card{display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--product-border);border-radius:14px;background:#fff;color:inherit;text-decoration:none}
+.formal-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#f7fbfa}
+.formal-card-title{padding:10px 12px 0;font-weight:700}
+.formal-card-meta{padding:4px 12px 12px;font-size:13px;color:#526879}
+.formal-version{font-size:13px;color:#526879}
+.formal-scene{max-width:720px;margin:auto}
+.formal-scene-code,.formal-frame-count{font-size:14px;color:#526879}
+.formal-mode-row,.formal-branches,.formal-frame-controls{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.formal-mode-row button[aria-pressed=true],.formal-branches button[aria-pressed=true]{background:var(--product-brand);border-color:var(--product-brand);color:white}
+.formal-picture{display:block;width:100%;padding:0;border:1px solid var(--product-border);border-radius:16px;overflow:hidden;background:#fff;cursor:pointer}
+.formal-picture img{display:block;width:100%;max-height:520px;aspect-ratio:1/1;object-fit:contain;background:#f7fbfa}
+.formal-dialogue{display:grid;gap:4px;margin:12px 0}
+.formal-line{display:flex;align-items:center;gap:8px;width:100%;min-height:44px;padding:6px 10px;border:1px solid transparent;border-radius:10px;background:transparent;text-align:left;font-size:16px;line-height:1.5}
+.formal-line svg{width:16px;height:16px;flex:0 0 16px}
+.formal-line.is-active{border-left:4px solid var(--product-brand);background:var(--product-brand-soft);color:var(--product-brand-dark)}
+.formal-play-status{min-height:24px;color:var(--product-brand-dark)}
+.formal-frame-controls button{flex:1}
+.formal-wordcards{margin:18px 0;padding:12px;border:1px solid var(--product-border);border-radius:14px;background:#fff}
+.formal-wordcards summary{min-height:44px;display:flex;align-items:center;color:var(--product-brand-dark);font-weight:700;cursor:pointer}
+.formal-word-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.formal-word-grid button{height:auto;padding:6px;border:1px solid var(--product-border);border-radius:10px;background:#fff}
+.formal-word-grid img{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#f7fbfa}
+.formal-word-grid span{display:block;padding:5px 2px;font-size:14px}
+.formal-finish{display:flex;align-items:center;justify-content:center;min-height:44px;margin:20px 0;padding:8px;border-radius:12px;background:var(--product-brand);color:#fff;text-decoration:none}
+@media(min-width:700px){.formal-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:380px){.formal-word-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+.formal-translation{display:block;font-size:14px;color:#526879}

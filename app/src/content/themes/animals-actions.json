@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "animals-actions",
+  "version": "1.0.0",
+  "title_zh": "认识动物",
+  "locale": "en-US",
+  "rights": {
+    "mode": "original",
+    "evidence": "original:animals-actions-v1"
+  },
+  "tasks": [
+    {
+      "id": "name-animal",
+      "goal_id": "name-basic-animal",
+      "goal_zh": "说出常见动物",
+      "title_zh": "动物来做客",
+      "minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "materials_zh": [
+        "三张动物卡片或玩具（猫、狗、鸟）"
+      ],
+      "stop_rule_zh": "孩子拒绝、疲惫或不适时停止，不要求学满时间。",
+      "observation": {
+        "id": "reply-animal",
+        "prompt_zh": "最后一次问到时，孩子如何说出动物？",
+        "independent_zh": "未提供答案示范，孩子自己说 cat、dog 或 bird。",
+        "prompted_zh": "家长示范或提示答案后，孩子说出对应动物词。",
+        "not_yet_zh": "孩子愿意参与，有回应机会，但帮助后仍未口头说出动物词；拒绝或未观察填未知。"
+      },
+      "path": [
+        {
+          "level": 0,
+          "title_zh": "一起说",
+          "support_zh": "家长举起卡片配合叫声完整示范；跟说记为提示完成。"
+        },
+        {
+          "level": 1,
+          "title_zh": "先等再帮",
+          "support_zh": "举起卡片先留几秒，需要时再示范。"
+        },
+        {
+          "level": 2,
+          "title_zh": "换个场景",
+          "support_zh": "换到窗外的动物、绘本里的动物等场景继续同一目标。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "show",
+          "title_zh": "动物出场",
+          "seconds": 60,
+          "instruction_zh": "逐张出示卡片，家长配叫声示范，孩子可以听或模仿动作，不强迫开口。",
+          "line_en": "Look! A cat, a dog, and a bird.",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/animals-actions/show.mp3",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "prepare"
+        },
+        {
+          "id": "practice",
+          "title_zh": "和家长练习",
+          "seconds": 120,
+          "instruction_zh": "家长出示一张卡片并提问，按当前档位提供支持；这是练习，不记作独立掌握。",
+          "line_en": "What is this?",
+          "expected_response_en": "Cat!",
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/animals-actions/practice.mp3",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "practice"
+        },
+        {
+          "id": "observe",
+          "title_zh": "说出动物",
+          "seconds": 120,
+          "instruction_zh": "再次出示一张卡片问动物。按观察标准记录这次回应；猫狗鸟任一正确即可，不纠结口音，不反复刷次数。",
+          "line_en": "What is this?",
+          "expected_response_en": "Dog!",
+          "observation_ids": [
+            "reply-animal"
+          ],
+          "audio": {
+            "path": "audio/animals-actions/observe.mp3",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "observe"
+        },
+        {
+          "id": "finish",
+          "title_zh": "轻松结束",
+          "seconds": 60,
+          "instruction_zh": "模仿动物挥手道别，然后由家长记录；道别台词不纳入动物目标评分。",
+          "line_en": "Bye-bye, cat! Bye-bye, dog!",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/animals-actions/finish.mp3",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "finish"
+        }
+      ]
+    }
+  ],
+  "assumption_zh": "产品假设：时长、支持档位与观察门槛待验证；不用于诊断或官方等级认证。"
+}

@@ -1,0 +1,47 @@
+{
+ "scene": "SC-C01-009",
+ "voice": "Samantha(en-US)",
+ "note": "本机合成非母语者录音(I-7)",
+ "lines": [
+  {
+   "id": "1",
+   "text": "Look at the little bear. The bear is sleepy.",
+   "file": "1.m4a"
+  },
+  {
+   "id": "2",
+   "text": "The moon is outside the window. The stars are bright.",
+   "file": "2.m4a"
+  },
+  {
+   "id": "3",
+   "text": "Bear gets into bed. Bear closes his eyes.",
+   "file": "3.m4a"
+  },
+  {
+   "id": "4",
+   "text": "Good night, moon. Good night, stars.",
+   "file": "4.m4a"
+  },
+  {
+   "id": "5",
+   "text": "Sleep tight, little bear. Good night.",
+   "file": "5.m4a"
+  },
+  {
+   "id": "6",
+   "text": "Sleep tight, sleep tight.",
+   "file": "6.m4a"
+  },
+  {
+   "id": "7",
+   "text": "Good night, good night.",
+   "file": "7.m4a"
+  },
+  {
+   "id": "8",
+   "text": "Close your eyes, little bear. Good night, good night, good night.",
+   "file": "8.m4a"
+  }
+ ]
+}

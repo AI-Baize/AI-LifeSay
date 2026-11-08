@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env*
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+*.pem
+*.apk
+*.aab
+*.log
+.gradle/
+build/
+local.properties
+app/android/app/src/main/assets/

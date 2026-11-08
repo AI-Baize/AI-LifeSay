@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "colors-shapes",
+  "version": "1.0.0",
+  "title_zh": "认识颜色",
+  "locale": "en-US",
+  "rights": {
+    "mode": "original",
+    "evidence": "original:colors-shapes-v1"
+  },
+  "tasks": [
+    {
+      "id": "name-color",
+      "goal_id": "name-basic-color",
+      "goal_zh": "说出基本颜色",
+      "title_zh": "给积木找颜色",
+      "minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "materials_zh": [
+        "三块不同颜色的积木或彩纸（红、蓝、黄）"
+      ],
+      "stop_rule_zh": "孩子拒绝、疲惫或不适时停止，不要求学满时间。",
+      "observation": {
+        "id": "reply-color",
+        "prompt_zh": "最后一次指认时，孩子如何说出颜色？",
+        "independent_zh": "未提供答案示范，孩子自己说 red、blue 或 yellow。",
+        "prompted_zh": "家长示范或提示答案后，孩子说出对应颜色词。",
+        "not_yet_zh": "孩子愿意参与，有回应机会，但帮助后仍未口头说出颜色词；拒绝或未观察填未知。"
+      },
+      "path": [
+        {
+          "level": 0,
+          "title_zh": "一起说",
+          "support_zh": "家长逐个指着积木完整示范；跟说记为提示完成。"
+        },
+        {
+          "level": 1,
+          "title_zh": "先等再帮",
+          "support_zh": "指着积木先留几秒，需要时再示范。"
+        },
+        {
+          "level": 2,
+          "title_zh": "换个场景",
+          "support_zh": "换到衣物、食物等其他物品尝试相同颜色目标。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "show",
+          "title_zh": "摆出积木",
+          "seconds": 60,
+          "instruction_zh": "把三块积木并排摆好，家长逐一点认，孩子可以听或跟着指，不强迫开口。",
+          "line_en": "Look! Red, blue, and yellow.",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/colors-shapes/show.mp3",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "prepare"
+        },
+        {
+          "id": "practice",
+          "title_zh": "和家长练习",
+          "seconds": 120,
+          "instruction_zh": "家长拿起一块，按当前档位提供支持；这是练习，不记作独立掌握。",
+          "line_en": "What color is this?",
+          "expected_response_en": "Red!",
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/colors-shapes/practice.mp3",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "practice"
+        },
+        {
+          "id": "observe",
+          "title_zh": "说出颜色",
+          "seconds": 120,
+          "instruction_zh": "再次举起一块积木问颜色。按观察标准记录这次回应；红蓝黄任一正确即可，不纠结口音，不反复刷次数。",
+          "line_en": "What color is this?",
+          "expected_response_en": "Blue!",
+          "observation_ids": [
+            "reply-color"
+          ],
+          "audio": {
+            "path": "audio/colors-shapes/observe.mp3",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "observe"
+        },
+        {
+          "id": "finish",
+          "title_zh": "轻松结束",
+          "seconds": 60,
+          "instruction_zh": "一起把积木收好，然后由家长记录；收纳台词不纳入颜色目标评分。",
+          "line_en": "Good job! Let's put them away.",
+          "expected_response_en": null,
+          "observation_ids": [],
+          "audio": {
+            "path": "audio/colors-shapes/finish.mp3",
+            "locale": "en-US",
+            "status": "ready"
+          },
+          "phase": "finish"
+        }
+      ]
+    }
+  ],
+  "assumption_zh": "产品假设：时长、支持档位与观察门槛待验证；不用于诊断或官方等级认证。"
+}

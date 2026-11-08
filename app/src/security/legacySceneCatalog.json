@@ -1,0 +1,340 @@
+{
+  "2f6d6ae5cee12ad88f4166a32cdb68bb7a3ca255c9567c3a2fae1fb5041aae8c": [
+    {
+      "scene_id": "P36-T01-01",
+      "title": "介绍自己给熟悉的新朋友",
+      "category": "T01",
+      "category_title": "家庭关系与日常沟通",
+      "frame_indexes": [
+        0
+      ]
+    },
+    {
+      "scene_id": "P36-T10-05",
+      "title": "小区见到熟悉邻居",
+      "category": "T10",
+      "category_title": "公园图书馆与社区",
+      "frame_indexes": [
+        1
+      ]
+    },
+    {
+      "scene_id": "P36-T13-08",
+      "title": "向接待者自然道别",
+      "category": "T13",
+      "category_title": "旅行探访与不同环境",
+      "frame_indexes": [
+        2
+      ]
+    },
+    {
+      "scene_id": "P36-T20-02",
+      "title": "为朋友准备一句祝福",
+      "category": "T20",
+      "category_title": "庆祝家庭文化与差异",
+      "frame_indexes": [
+        3
+      ]
+    },
+    {
+      "scene_id": "P36-T20-06",
+      "title": "收到礼物时选择回应方式",
+      "category": "T20",
+      "category_title": "庆祝家庭文化与差异",
+      "frame_indexes": [
+        4
+      ]
+    },
+    {
+      "scene_id": "P36-T22-01",
+      "title": "和不在身边的家人打招呼",
+      "category": "T22",
+      "category_title": "数字媒介与远程联系",
+      "frame_indexes": [
+        5
+      ]
+    }
+  ],
+  "ef539bf1dcf5323e60ea1b250b06fd3e80172936bce4db19fe8f471d4b792608": [
+    {
+      "scene_id": "P36-T13-07",
+      "title": "在照片或地图上回想去过的地方",
+      "category": "T13",
+      "category_title": "旅行探访与不同环境",
+      "frame_indexes": [
+        0
+      ]
+    },
+    {
+      "scene_id": "P36-T14-06",
+      "title": "回想昨天发生的一件事",
+      "category": "T14",
+      "category_title": "时间天气与季节",
+      "frame_indexes": [
+        1
+      ]
+    },
+    {
+      "scene_id": "P36-T14-07",
+      "title": "告诉成人明天期待的事",
+      "category": "T14",
+      "category_title": "时间天气与季节",
+      "frame_indexes": [
+        2
+      ]
+    },
+    {
+      "scene_id": "P36-T19-04",
+      "title": "用三张图回想一个小事件",
+      "category": "T19",
+      "category_title": "图书故事与共同叙事",
+      "frame_indexes": [
+        3
+      ]
+    },
+    {
+      "scene_id": "P36-T23-01",
+      "title": "开始前说想先做什么",
+      "category": "T23",
+      "category_title": "问题解决计划与沟通",
+      "frame_indexes": [
+        4
+      ]
+    },
+    {
+      "scene_id": "P36-T23-07",
+      "title": "完成后说一件做过的事",
+      "category": "T23",
+      "category_title": "问题解决计划与沟通",
+      "frame_indexes": [
+        5
+      ]
+    }
+  ],
+  "e4e78d6a63225e951aae88d69eea94bf7908faaf98df23bbbd259e4a8cd612a2": [
+    {
+      "scene_id": "P36-T01-01",
+      "title": "介绍自己给熟悉的新朋友",
+      "category": "T01",
+      "category_title": "家庭关系与日常沟通",
+      "frame_indexes": [
+        0
+      ]
+    },
+    {
+      "scene_id": "P36-T10-05",
+      "title": "小区见到熟悉邻居",
+      "category": "T10",
+      "category_title": "公园图书馆与社区",
+      "frame_indexes": [
+        1
+      ]
+    },
+    {
+      "scene_id": "P36-T13-08",
+      "title": "向接待者自然道别",
+      "category": "T13",
+      "category_title": "旅行探访与不同环境",
+      "frame_indexes": [
+        2
+      ]
+    },
+    {
+      "scene_id": "P36-T20-02",
+      "title": "为朋友准备一句祝福",
+      "category": "T20",
+      "category_title": "庆祝家庭文化与差异",
+      "frame_indexes": [
+        3
+      ]
+    },
+    {
+      "scene_id": "P36-T20-06",
+      "title": "收到礼物时选择回应方式",
+      "category": "T20",
+      "category_title": "庆祝家庭文化与差异",
+      "frame_indexes": [
+        4
+      ]
+    },
+    {
+      "scene_id": "P36-T22-01",
+      "title": "和不在身边的家人打招呼",
+      "category": "T22",
+      "category_title": "数字媒介与远程联系",
+      "frame_indexes": [
+        5
+      ]
+    }
+  ],
+  "ab17a45cd3595a40b66c54328af13df55df76563bc7bae0ef3ff82c6115f8ef8": [
+    {
+      "scene_id": "P36-T13-07",
+      "title": "在照片或地图上回想去过的地方",
+      "category": "T13",
+      "category_title": "旅行探访与不同环境",
+      "frame_indexes": [
+        0
+      ]
+    },
+    {
+      "scene_id": "P36-T14-06",
+      "title": "回想昨天发生的一件事",
+      "category": "T14",
+      "category_title": "时间天气与季节",
+      "frame_indexes": [
+        1
+      ]
+    },
+    {
+      "scene_id": "P36-T14-07",
+      "title": "告诉成人明天期待的事",
+      "category": "T14",
+      "category_title": "时间天气与季节",
+      "frame_indexes": [
+        2
+      ]
+    },
+    {
+      "scene_id": "P36-T19-04",
+      "title": "用三张图回想一个小事件",
+      "category": "T19",
+      "category_title": "图书故事与共同叙事",
+      "frame_indexes": [
+        3
+      ]
+    },
+    {
+      "scene_id": "P36-T23-01",
+      "title": "开始前说想先做什么",
+      "category": "T23",
+      "category_title": "问题解决计划与沟通",
+      "frame_indexes": [
+        4
+      ]
+    },
+    {
+      "scene_id": "P36-T23-07",
+      "title": "完成后说一件做过的事",
+      "category": "T23",
+      "category_title": "问题解决计划与沟通",
+      "frame_indexes": [
+        5
+      ]
+    }
+  ],
+  "1edb4237d8fcb31e96fd88041eaea6667a70da8bd1b494e8344602890d63d8a1": [
+    {
+      "scene_id": "P36-T16-02",
+      "title": "观察软球怎样滚动",
+      "category": "T16",
+      "category_title": "观察探究与简单科学",
+      "frame_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "scene_id": "P36-T16-08",
+      "title": "发现自己的猜想不一样",
+      "category": "T16",
+      "category_title": "观察探究与简单科学",
+      "frame_indexes": [
+        2
+      ]
+    },
+    {
+      "scene_id": "P36-T17-08",
+      "title": "发现重复图案的下一项",
+      "category": "T17",
+      "category_title": "数量形状与空间语言",
+      "frame_indexes": [
+        3
+      ]
+    },
+    {
+      "scene_id": "P36-T19-03",
+      "title": "猜下一页可能发生什么",
+      "category": "T19",
+      "category_title": "图书故事与共同叙事",
+      "frame_indexes": [
+        4
+      ]
+    },
+    {
+      "scene_id": "P36-T19-05",
+      "title": "改编一个故事的小选择",
+      "category": "T19",
+      "category_title": "图书故事与共同叙事",
+      "frame_indexes": [
+        5
+      ]
+    },
+    {
+      "scene_id": "P36-T19-06",
+      "title": "把信息书中的内容和生活联系",
+      "category": "T19",
+      "category_title": "图书故事与共同叙事",
+      "frame_indexes": [
+        6
+      ]
+    }
+  ],
+  "002977d616122f3c42697f879ef876e298d52bced26406a879f264ad8c76f64e": [
+    {
+      "scene_id": "P36-T16-02",
+      "title": "观察软球怎样滚动",
+      "category": "T16",
+      "category_title": "观察探究与简单科学",
+      "frame_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "scene_id": "P36-T16-08",
+      "title": "发现自己的猜想不一样",
+      "category": "T16",
+      "category_title": "观察探究与简单科学",
+      "frame_indexes": [
+        2
+      ]
+    },
+    {
+      "scene_id": "P36-T17-08",
+      "title": "发现重复图案的下一项",
+      "category": "T17",
+      "category_title": "数量形状与空间语言",
+      "frame_indexes": [
+        3
+      ]
+    },
+    {
+      "scene_id": "P36-T19-03",
+      "title": "猜下一页可能发生什么",
+      "category": "T19",
+      "category_title": "图书故事与共同叙事",
+      "frame_indexes": [
+        4
+      ]
+    },
+    {
+      "scene_id": "P36-T19-05",
+      "title": "改编一个故事的小选择",
+      "category": "T19",
+      "category_title": "图书故事与共同叙事",
+      "frame_indexes": [
+        5
+      ]
+    },
+    {
+      "scene_id": "P36-T19-06",
+      "title": "把信息书中的内容和生活联系",
+      "category": "T19",
+      "category_title": "图书故事与共同叙事",
+      "frame_indexes": [
+        6
+      ]
+    }
+  ]
+}

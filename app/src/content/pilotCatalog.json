@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "content_version": "pilot-2026-10-23.1",
+  "release_status": "internal_candidate",
+  "units": [
+    {
+      "id": "hello",
+      "title": "和玩偶打招呼",
+      "goal_id": "respond-to-greeting",
+      "goal_version": "pilot-draft-1",
+      "source": "家庭问候基础课",
+      "sources": [
+        {
+          "path": "code/english-graded-app/src/content/themes/family-greetings.json",
+          "sha256": "c848dbe005acd8b3601265454648e1313a29bd2bd976731a638c2134b8baebd8"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-hello-stimulus",
+        "model": "pilot-hello-model"
+      },
+      "audio_review": "pending",
+      "image": "course-package/images/SC-C01-001.webp",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "向对方回应问候。",
+      "materials": "玩偶或家人",
+      "stimulus": "Hello!",
+      "model": "Hello!",
+      "practice_line": "Hello!",
+      "offline": "在门口或玩偶游戏中自然问候，不要求孩子重复多遍。",
+      "boundary": "接受看、挥手或说话；动作回应不能记为独立英语表达。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "user_approved_visual_candidate; teaching_and_rights_review_pending"
+    },
+    {
+      "id": "hello-school",
+      "title": "入园问候模拟",
+      "goal_id": "respond-to-greeting",
+      "goal_version": "pilot-draft-1",
+      "source": "SC-C03-001 入园问候模拟",
+      "sources": [
+        {
+          "path": "courses/source/C03-幼儿园/SC-C03-001-入园问候模拟.md",
+          "sha256": "07a86da83c522e510020fa21faf6f13c56eda210db149cc1194d0fa48f553a95"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-c03-001-stimulus",
+        "model": "pilot-c03-001-model"
+      },
+      "audio_review": "pending",
+      "image": "scenes/course/SC-C03-001.png",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "在角色游戏中回应自然问候。",
+      "materials": "一个玩偶；可用家门模拟园门",
+      "stimulus": "Hello!",
+      "model": "Hi!",
+      "practice_line": "Hi!",
+      "offline": "家长扮老师，玩偶当孩子，用自然问候做一轮；孩子可看、听、回应或结束。",
+      "boundary": "接受 Hello 或 Hi；拒绝或只挥手都合法。当前为练习内容，不能根据播放或演练生成观察记录。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "pending_user_visual_review"
+    },
+    {
+      "id": "colors",
+      "title": "认识一张色纸",
+      "goal_id": "name-basic-color",
+      "goal_version": "pilot-draft-1",
+      "source": "颜色基础课 / SC-C03-007",
+      "sources": [
+        {
+          "path": "courses/source/C03-幼儿园/SC-C03-007-美术课色纸命名.md",
+          "sha256": "801e980b25052bf08433fb426a52184d4e7d2d75b7f7d9a9353b174a547bba4c"
+        },
+        {
+          "path": "code/english-graded-app/src/content/themes/colors-shapes.json",
+          "sha256": "5810824effb0a2e15af330a0aa57a0c3fd60094c59f57033f2ca89af881b564b"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-colors-stimulus",
+        "model": "pilot-colors-model"
+      },
+      "audio_review": "pending",
+      "image": "scenes/observation/colors-paper.svg",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "说出熟悉色纸的颜色。",
+      "materials": "两张颜色明显不同的纸",
+      "stimulus": "What color is it?",
+      "model": "Red",
+      "practice_line": "Red",
+      "offline": "先示范，再拿另一张熟悉色纸让孩子尝试命名；听指令选择可以作为另一个游戏。",
+      "boundary": "指认和命名分开；跟着成人说不算独立命名，练习不写观察。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "reused_demo_not_new_style_approved"
+    },
+    {
+      "id": "animals",
+      "title": "说一说小动物",
+      "goal_id": "name-basic-animal",
+      "goal_version": "pilot-draft-1",
+      "source": "动物基础课",
+      "sources": [
+        {
+          "path": "code/english-graded-app/src/content/themes/animals-actions.json",
+          "sha256": "746e6360694cfb1373af21258abee8d2ad94fa4b070e3a866111b54d4ec2d93a"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-animals-stimulus",
+        "model": "pilot-animals-model"
+      },
+      "audio_review": "pending",
+      "image": "scenes/observation/animals-pets.svg",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "说出熟悉图片中的动物名称。",
+      "materials": "玩具动物或手绘图片",
+      "stimulus": "What is this?",
+      "model": "Cat",
+      "practice_line": "Cat",
+      "offline": "用家里的玩具动物再说一次，不必看屏幕做完。",
+      "boundary": "听到词后指认与自己命名是不同任务，不合并记录。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "reused_demo_not_new_style_approved"
+    },
+    {
+      "id": "goodbye",
+      "title": "和玩偶说再见",
+      "goal_id": "respond-to-farewell",
+      "goal_version": "pilot-draft-1",
+      "source": "SC-C03-002",
+      "sources": [
+        {
+          "path": "courses/source/C03-幼儿园/SC-C03-002-离园告别模拟.md",
+          "sha256": "61aeb23259b96ffe090a89d4abd84375e43023b7785f48a0a778932e995c44cc"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-goodbye-stimulus",
+        "model": "pilot-goodbye-model"
+      },
+      "audio_review": "pending",
+      "image": "scenes/course/SC-C03-002.png",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "结束互动时表达告别。",
+      "materials": "一个玩偶",
+      "stimulus": "Bye-bye!",
+      "model": "Bye-bye!",
+      "practice_line": "Bye-bye!",
+      "offline": "离开玩具区时道别，不模拟陌生人接触。",
+      "boundary": "挥手是参与方式；只有实际说出才能说明英语表达。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "reused_demo_not_new_style_approved"
+    },
+    {
+      "id": "rest",
+      "title": "我想休息一下",
+      "goal_id": "express-need-for-break",
+      "goal_version": "pilot-draft-1",
+      "source": "SC-C03-003",
+      "sources": [
+        {
+          "path": "courses/source/C03-幼儿园/SC-C03-003-回家说明需要休息.md",
+          "sha256": "e3a96de3d855c9ca30fffbc1cdc31a1abfb3b00847e59038f50faf6d7dfe85a9"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-rest-stimulus",
+        "model": "pilot-rest-model"
+      },
+      "audio_review": "pending",
+      "image": "course-package/images/SC-C03-003.webp",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "让成人知道自己想停下来休息。",
+      "materials": "安静的休息位置",
+      "stimulus": "Do you want a break?",
+      "model": "A break, please.",
+      "practice_line": "A break, please.",
+      "offline": "成人示范表达，然后随孩子意愿结束活动。",
+      "boundary": "中文、手势和拒绝都应被尊重；不能以说出英语换取休息。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "user_approved_visual_candidate; teaching_and_rights_review_pending"
+    },
+    {
+      "id": "card",
+      "title": "把卡片递给我",
+      "goal_id": "follow-simple-instruction",
+      "goal_version": "pilot-draft-1",
+      "source": "SC-C03-005",
+      "sources": [
+        {
+          "path": "courses/source/C03-幼儿园/SC-C03-005-看图递卡请求.md",
+          "sha256": "f877c1b03675e670e82e0e484860aaeb29ac190d2c701e6165f60598341ddb33"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-card-stimulus",
+        "model": "pilot-card-model"
+      },
+      "audio_review": "pending",
+      "image": "course-package/images/SC-C03-006.webp",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "听懂递卡指令并按意愿参与。",
+      "materials": "两张自制卡片",
+      "stimulus": "Give me the card, please.",
+      "model": "Here you are.",
+      "practice_line": "Give me the card, please.",
+      "offline": "成人和孩子交换角色做自愿的递卡游戏，动作回应即可。",
+      "boundary": "目标是听懂指令，不要求说Here you are；递出物品不是服从或分享评分。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "user_approved_visual_candidate; teaching_and_rights_review_pending"
+    },
+    {
+      "id": "help",
+      "title": "请帮帮我",
+      "goal_id": "request-help",
+      "goal_version": "pilot-draft-1",
+      "source": "SC-C03-006",
+      "sources": [
+        {
+          "path": "courses/source/C03-幼儿园/SC-C03-006-请求帮助.md",
+          "sha256": "7948f587692b3c87eaf83ec18fe237cff6c025f7fea58c31b477d5f81924f12e"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-help-stimulus",
+        "model": "pilot-help-model"
+      },
+      "audio_review": "pending",
+      "image": "scenes/observation/family-table.svg",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "用英语词或短语表达求助。",
+      "materials": "拼图或一个安全玩具盒",
+      "stimulus": "What can you say?",
+      "model": "Help, please!",
+      "practice_line": "Help, please!",
+      "offline": "家长扮玩偶假装遇到小困难，随后立刻帮忙，不制造真实挫折。",
+      "boundary": "接受 Help / Help me / Help, please；中性提示不含答案。中文求助不是失败，练习示范不记独立表达。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "reused_demo_not_new_style_approved"
+    },
+    {
+      "id": "share",
+      "title": "一起看动物卡",
+      "goal_id": "name-basic-animal",
+      "goal_version": "pilot-draft-1",
+      "source": "SC-C03-010",
+      "sources": [
+        {
+          "path": "courses/source/C03-幼儿园/SC-C03-010-分享动物卡.md",
+          "sha256": "255cafe472ec0d99cd44feb6f07deaadb238cb8291ade1c52e55e6d31e1ee4e2"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-share-stimulus",
+        "model": "pilot-share-model"
+      },
+      "audio_review": "pending",
+      "image": "scenes/observation/animals-actions.svg",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "在共同看动物卡时说出熟悉动物名称。",
+      "materials": "自制动物卡",
+      "stimulus": "What is this?",
+      "model": "A cat!",
+      "practice_line": "A cat!",
+      "offline": "成人邀请孩子一起看卡；孩子不愿分享时仍保留物品。",
+      "boundary": "本目标仍是动物命名，不新增分享能力；不能以是否交出物品评价英语。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "reused_demo_not_new_style_approved"
+    },
+    {
+      "id": "turn",
+      "title": "轮到我了吗",
+      "goal_id": "req-my-turn",
+      "goal_version": "pilot-draft-1",
+      "source": "SC-C03-011",
+      "sources": [
+        {
+          "path": "courses/source/C03-幼儿园/SC-C03-011-请求轮到自己.md",
+          "sha256": "4b49f173964aa4bb79f05aad8a0c90a8bf8464ce7881bd983c355e91cae7c3d8"
+        }
+      ],
+      "line_ids": {
+        "stimulus": "pilot-turn-stimulus",
+        "model": "pilot-turn-model"
+      },
+      "audio_review": "pending",
+      "image": "scenes/observation/family-visitor.svg",
+      "age_band": "3–6岁，按兴趣和准备度选择",
+      "target": "在轮流游戏中表达想参与。",
+      "materials": "一个安全玩具",
+      "stimulus": "Your turn.",
+      "model": "My turn, please.",
+      "practice_line": "My turn, please.",
+      "offline": "成人先示范轮流，再邀请孩子用合适方式表达。",
+      "boundary": "不把等待时长或服从计入语言表现；可以跳过或退出。",
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "recording_allowed": false,
+      "illustration_status": "reused_demo_not_new_style_approved"
+    }
+  ],
+  "stories": [
+    {
+      "id": "hello-story",
+      "title": "玩偶来做客",
+      "unit_id": "hello",
+      "source": "基于既有问候目标新编共读草稿",
+      "frames": [
+        {
+          "id": "hello-story-1",
+          "image": "scenes/observation/family-greetings.svg",
+          "text": "Teddy is at the door.",
+          "parent_note": "小熊来到门口。"
+        },
+        {
+          "id": "hello-story-2",
+          "image": "scenes/observation/family-visitor.svg",
+          "text": "Hello, Teddy!",
+          "parent_note": "和小熊打招呼。"
+        },
+        {
+          "id": "hello-story-3",
+          "image": "scenes/observation/family-table.svg",
+          "text": "Come and sit with me.",
+          "parent_note": "邀请小熊一起坐。"
+        },
+        {
+          "id": "hello-story-4",
+          "image": "scenes/observation/family-greetings.svg",
+          "text": "Bye-bye, Teddy!",
+          "parent_note": "说再见。"
+        }
+      ],
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "illustration_status": "reused_demo_not_story_specific",
+      "recording_allowed": false
+    },
+    {
+      "id": "help-story",
+      "title": "一起完成拼图",
+      "unit_id": "help",
+      "source": "基于SC-C03-006新编共读草稿",
+      "frames": [
+        {
+          "id": "help-story-1",
+          "image": "scenes/observation/family-table.svg",
+          "text": "Teddy has a puzzle.",
+          "parent_note": "小熊有一份拼图。"
+        },
+        {
+          "id": "help-story-2",
+          "image": "scenes/observation/family-table.svg",
+          "text": "Help, please!",
+          "parent_note": "小熊请求帮忙。"
+        },
+        {
+          "id": "help-story-3",
+          "image": "scenes/observation/family-visitor.svg",
+          "text": "I can help you.",
+          "parent_note": "朋友回应求助。"
+        },
+        {
+          "id": "help-story-4",
+          "image": "scenes/observation/family-table.svg",
+          "text": "We did it together!",
+          "parent_note": "一起完成游戏。"
+        }
+      ],
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "illustration_status": "reused_demo_not_story_specific",
+      "recording_allowed": false
+    },
+    {
+      "id": "turn-story",
+      "title": "一起轮流玩",
+      "unit_id": "turn",
+      "source": "基于SC-C03-011新编共读草稿",
+      "frames": [
+        {
+          "id": "turn-story-1",
+          "image": "scenes/observation/family-visitor.svg",
+          "text": "Teddy has a toy.",
+          "parent_note": "小熊拿着玩具。"
+        },
+        {
+          "id": "turn-story-2",
+          "image": "scenes/observation/family-visitor.svg",
+          "text": "My turn, please.",
+          "parent_note": "表达想要参与。"
+        },
+        {
+          "id": "turn-story-3",
+          "image": "scenes/observation/family-table.svg",
+          "text": "Your turn!",
+          "parent_note": "把机会交给朋友。"
+        },
+        {
+          "id": "turn-story-4",
+          "image": "scenes/observation/family-visitor.svg",
+          "text": "We can play together.",
+          "parent_note": "一起玩。"
+        }
+      ],
+      "review_status": "internal_draft",
+      "human_review": "pending",
+      "illustration_status": "reused_demo_not_story_specific",
+      "recording_allowed": false
+    }
+  ],
+  "reviewed_content_candidates": [
+    {
+      "revision_id": "2026-10-25-content-v1.1",
+      "scripts_path": "courses/pilot/revisions/2026-10-25-content-v1/scene-dialogue-candidates.json",
+      "audit_report_path": "courses/pilot/revisions/2026-10-25-content-v1/完整文案审校报告.md",
+      "scene_count": 30,
+      "internal_text_review": "passed",
+      "independent_mentor_review": "pending",
+      "native_language_review": "pending",
+      "visual_audio_rights_family_review": "pending",
+      "runtime_enabled": false,
+      "recording_allowed": false,
+      "release_status": "not_approved"
+    }
+  ]
+}
