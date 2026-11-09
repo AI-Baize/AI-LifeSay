@@ -1,9 +1,20 @@
-# 应用代码候选
+# AI LifeSay 客户端构建
 
-本目录是以 0.95 1128 为基准整理的客户端代码和免费资源候选，不包含发行私钥、签发服务和付费资源。公开前仍需完成素材权利、源代码及依赖许可和敏感信息的逐项审查。不要将 .gitignore 当作秘密扫描的替代品。
+本仓库的客户端以 Android 0.95（1128）为基准，提供免费 30 场景的运行资源。Android 包名为 `org.aibaize.lifesay`。签名安装包及校验文件通过 GitHub Release 分发。
 
-`npm ci` 后运行 `npm run build` 可构建免费课程网页候选。使用 Node 24.19.0（package.json 要求）。该独立 Vite 构建包含相同免费资源和正式公钥，但构建配置与签名 APK 的内部发行流程不同，不保证二进制复现或构成正式发行批准。2026-11-08：类型检查和构建通过，原项目 6 项 Chromium 静态资源回归通过；本机 Node 24.13.0 产生依赖版本警告，未在干净环境测试。
+在 Windows 上将仓库克隆到只含 ASCII 字符的路径，例如 `E:\work\AI-LifeSay`。准备 Node.js 24.19.0、JDK 21 和 Android SDK 36，按本机安装位置设置 `JAVA_HOME` 和 `ANDROID_HOME`。从仓库根目录运行：
 
-`android/` 是原生代码与构建配置，不包含应用资产、SDK、签名文件或签发私钥。需先按 Capacitor 流程同步构建产物并核验生成的插件工程；此导出尚未进行独立 Android 构建和签名验证。
+```powershell
+Set-Location app
+npm ci
+npm run build
+npx cap sync android
+Set-Location android
+.\gradlew.bat assembleRelease
+```
 
-原正式签发服务未随此目录提供，正式身份的签发与真机闭环尚未完成。课程素材和第三方组件许可与软件代码的权利可能不同，须以最终核准的声明为准。
+Android 构建产物为 `app/android/app/build/outputs/apk/release/app-release-unsigned.apk`。构建输入包括 Git 中的客户端和课程文件、锁定的 npm 依赖，以及 Gradle 工具和 Android SDK。对用户发放的 APK 需要发行者使用原签名身份签署。
+
+2026-11-09 在 Node 24.19.0、JDK 21、SDK 36 和 Gradle 8.14.3 上通过类型检查、网页构建、Capacitor 同步及 Android release 构建。所得 APK 的 634 个课程文件与 1128 签名候选包一致。构建校验覆盖课程文件内容，不保证两份 APK 字节相同。
+
+正式增值资源的签发及验收由独立服务负责。应用和课程权利见仓库根目录的相关说明，第三方许可见 `THIRD-PARTY-NOTICES.md`。

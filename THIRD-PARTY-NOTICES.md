@@ -73,8 +73,9 @@
 ## 尚需完成
 
 - `com.google.guava:listenablefuture:1.0` 的许可来自本地父 POM guava-parent 26.0-android；仍需核对产物是否包含额外 NOTICE。
-- 核对 Android AAR/JAR 内附 NOTICE、版权声明及各许可证全文；当前 POM 清单不等于完整合规通知。
-- 确认网页依赖中的间接依赖与实际构建产物的对应关系，并核对字体、图片和音频的许可及署名。
+- 已重新扫描 1128 构建缓存中的 AAR、JAR 和 AAR 内嵌 JAR 的 LICENSE、NOTICE、COPYING 条目，未发现此前归档以外的文本。POM 声明和归档中的文本均列于本页。
+- 独立复建的 Vite 打包报告列出 9 个网页模块来源：@capacitor/core、@remix-run/router、dexie、react、react-dom、react-router、react-router-dom、scheduler、zustand。Capacitor Android 与 App 插件另外出现在 Android 构建记录中。tslib 来自 npm 生产依赖树。
+- 核对字体、图片和音频的许可及署名。
 - 源码与课程内容的使用条款独立适用。
 
 ## Android 工件中附带的许可与 NOTICE
@@ -89,4 +90,3 @@
 - androidx.webkit:webkit:1.14.0：[文本](third-party-licenses/androidx.webkit-webkit-1.14.0-META-INF_androidx_webkit_webkit_LICENSE.txt)
 
 Apache License 2.0 完整文本： [Dexie 随附许可](third-party-licenses/dexie-4.4.6-LICENSE)。
-
