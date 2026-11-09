@@ -1,4 +1,4 @@
-# AI LifeSay 0.95 软件使用协议待审稿
+# AI LifeSay 0.95 软件使用协议
 
 拟适用范围为 AI LifeSay 0.95 Android 应用及内置免费 30 场景。个人运营，网络署名 AI白泽，联系邮箱 aibaize@yeah.net。
 
