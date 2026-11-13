@@ -71,3 +71,5 @@ button[aria-pressed=true]:disabled{opacity:1;cursor:default}.calendar-grid butto
 .material-example{margin:8px 0 0;overflow-wrap:anywhere}
 .material-observation-note{display:block;margin:10px 0 0;white-space:normal;overflow-wrap:anywhere}
 .support-method-list{margin:0;padding-left:24px}
+
+.starting-point-dialog select#starting-point-age{background:#fff;border:1px solid #a6a6a6;color:#243746}

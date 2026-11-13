@@ -67,3 +67,5 @@ body{background:var(--product-canvas);color:var(--product-text)}
 .course-search-heading .interest-age-entry{background:transparent;border:0;box-shadow:none;text-decoration:underline;color:#087890;font-size:16px;padding:0 2px;min-height:44px}.developer-qr-preview{display:block;width:min(240px,100%);height:auto;padding:0;border:1px solid #d9e2e8;border-radius:12px;overflow:hidden;background:#fff}.developer-qr-preview img{display:block;width:100%;height:auto}.developer-qr-dialog{max-width:min(92vw,560px);max-height:90vh;max-height:90dvh;border:0;border-radius:16px;padding:16px;box-sizing:border-box}.developer-qr-dialog::backdrop{background:#0007}.developer-qr-dialog img{display:block;max-width:100%;max-height:70vh;max-height:70dvh;width:auto;height:auto;object-fit:contain;margin:auto}.developer-qr-dialog button{display:block;margin:12px auto 0}
 
 .resource-import-option{margin:12px 0}.resource-history{overflow-wrap:anywhere}.resource-history article{margin:8px 0;padding:10px 12px;border:1px solid var(--product-border);border-radius:12px;background:#fff}.resource-history h3,.resource-history article p{margin:4px 0}
+
+body.keyboard-open .product-nav{display:none}

@@ -38,13 +38,17 @@ export function FormalCourseListPage({ embedded = false, title = '学习',showSe
   if (embedded && !['A02', 'A03'].includes(age) && !previewAge) return <section className="formal-age-empty"><div className="course-search-heading"><span>找内容</span><StartingPointControl/></div><p>当前兴趣年龄暂无对应场景。现有首期内容面向3–6岁，家长可以主动查看。</p><button onClick={() => setPreviewAge(true)}>查看3–6岁首期内容</button></section>;
   const ageScenes = index.scenes.filter(scene => !embedded || previewAge || !scene.age_interest?.length || scene.age_interest.includes(age));
   const sceneQuery = new URLSearchParams();
+  const fromLearn = query.get('from') === 'learn';
   if (embedded) sceneQuery.set('origin', 'home');
   else if (pathname === '/learn') sceneQuery.set('origin', 'learn');
+  if (fromLearn) sceneQuery.set('from','learn');
+  if (query.get('q')) sceneQuery.set('q',query.get('q')!);
   const mode = query.get('mode');
   if (!embedded && mode) sceneQuery.set('mode', mode);
   const sceneSuffix = sceneQuery.size ? `?${sceneQuery}` : '';
   return <section className="formal-courses">
-    {!embedded && <h1 tabIndex={-1}>{title}</h1>}
+    {fromLearn && <Link to={`/learn${search ? `?${new URLSearchParams({q:search})}` : ''}`}>返回学习</Link>}
+    {!embedded && <h1 tabIndex={-1}>{fromLearn ? '按场景找内容' : title}</h1>}
     {catalogNotice&&<p role="status">{catalogNotice}</p>}
     {interests.length>0&&!ageScenes.some(s=>interests.includes(s.category))&&<p role="status">当前兴趣主题暂无可用场景，可调整起点选择其他主题。</p>}
     {showSearch&&<form className="course-search" role="search" key={query.get('q') ?? ''} onSubmit={event => { event.preventDefault(); const value = String(new FormData(event.currentTarget).get('q') ?? '').trim(); setQuery(current => { const next = new URLSearchParams(current); if (value) next.set('q', value); else next.delete('q'); return next; }, { replace: true }); }}>
@@ -197,7 +201,11 @@ function FormalCourseRuntime({ sceneId, requestedBranch, requestedMode, showTips
   const guideTitle = mode === 'parent' ? '看看这次怎么带' : mode === 'child' ? '点读怎么用' : mode === 'read' ? '自己读怎么用' : '跟读怎么用';
 
   const origin = params.get('origin');
-  const backTo = origin === 'home' ? '/today' : origin === 'learn' ? '/learn' : origin === 'play' && /^[a-z-]+$/.test(params.get('play') ?? '') ? `/play/${params.get('play')}` : '/courses';
+  const backPath = origin === 'home' ? '/today' : origin === 'learn' ? '/learn' : origin === 'play' && /^[a-z-]+$/.test(params.get('play') ?? '') ? `/play/${params.get('play')}` : '/courses';
+  const backQuery = new URLSearchParams();
+  if (params.get('q')) backQuery.set('q',params.get('q')!);
+  if (backPath === '/courses' && params.get('from') === 'learn') backQuery.set('from','learn');
+  const backTo = backQuery.size ? `${backPath}?${backQuery}` : backPath;
   return <section className="formal-scene">
     <Link to={backTo}>{origin === 'home' ? '返回首页' : '返回'}</Link>
     <p className="formal-scene-code">{scene.scene_id} · {index.groups[scene.category] ?? scene.category}</p>
