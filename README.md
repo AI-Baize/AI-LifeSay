@@ -7,9 +7,9 @@
 我想解决的问题很具体：家长有了绘本、动画和音频，仍可能不知道怎样和孩子一起用。AI LifeSay把生活场景、英文对话和成人引导交流放在一起，帮助家庭开始一次活动，也为生活中下一次使用留下线索。
 > **AI LifeSay 0.95** 提供 30 个免费生活场景，无需邀请码或付费激活。新增课程按实际资源和交付安排提供。
 
-<img width="326" height="796" alt="6efd8c3e27b4357dd92ea30053026638" src="https://github.com/user-attachments/assets/92110a43-c420-46bd-9984-2f0a1eebc7ce" />
-<img width="326" height="796" alt="d461ed4c9ba8954ebab31dbf5c1d392d" src="https://github.com/user-attachments/assets/e89f2abf-4ad9-4317-80c5-8105e8f42eb5" />
-<img width="326" height="796"  alt="489e9fb7ee65070cad9ccfa88e26dd0d" src="https://github.com/user-attachments/assets/6ee45a2e-075a-467d-ad67-b61ecec177b5" />
+<img width="300" height="680" alt="6efd8c3e27b4357dd92ea30053026638" src="https://github.com/user-attachments/assets/92110a43-c420-46bd-9984-2f0a1eebc7ce" />
+<img width="300" height="680" alt="d461ed4c9ba8954ebab31dbf5c1d392d" src="https://github.com/user-attachments/assets/e89f2abf-4ad9-4317-80c5-8105e8f42eb5" />
+<img width="300" height="680"  alt="489e9fb7ee65070cad9ccfa88e26dd0d" src="https://github.com/user-attachments/assets/6ee45a2e-075a-467d-ad67-b61ecec177b5" />
 
 
 
